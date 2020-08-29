@@ -1,0 +1,26 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .login_logo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 60vh;
+
+    img {
+      object-fit: contain;
+      height: 150px;
+    }
+  }
+
+  .MuiButton-root {
+    width: 300px;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 800;
+  }
+}
